@@ -1,0 +1,61 @@
+BaseURL = "https://blog.chrisstayte.com/"
+theme = "casper-two"
+languageCode    = "en-US"
+disqusShortname = "blog-chrisstayte"
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title = ""
+  subtitle = ""
+
+  cover       = "uploads/header.png"
+  description = "Chris Stayte's Awesome Blog"
+  metaDescription = ""
+  googleAnalytics = "UA-75993010-2"
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "chrisstayte"
+  fbName = "christstayte"
+  githubName = "chrisstayte"
+  youtubeName = "chrisstayte"
+
+  logo = ""
+  orgName = "Chris Stayte"
+  orgWebsite = "https://blog.chrisstayte.com"
+  orgDescription = "Chris Stayte"
+
+  author = "Chris Stayte"
+  authorAvatar = "uploads/chrisstayte_profilepic.jpg"
+  authorLocation = "Dayton, OH"
+  authorWebsite = "https://chrisstayte.com"
+  authorDescription = "Developer, Designer, Legend..."
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Coding"
+  url = "/coding"
+  weight = 100
+
+[[menu.main]]
+  name = "Design"
+  url = "/design"
+  weight = 99
+
+[[menu.main]]
+  name = "Life"
+  url = "/life"
+  weight = 98
