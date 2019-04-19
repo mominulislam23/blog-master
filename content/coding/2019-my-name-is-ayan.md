@@ -5,6 +5,7 @@ draft: true
 categories: any
 author: Chris Stayte
 authorImage: uploads/chrisstayte_profilepic.jpg
+image: /uploads/004_hostingasite.png
 comments: true
 share: true
 type: post
